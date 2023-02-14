@@ -2,7 +2,7 @@
 An application to see a user's list of repositories on GitHub. Check for open and closed issues, and sort by language.
 
 # Description
-![Git-It-Done]
+![Git-It-Done](./assets/Capture.PNG "git it done, stay up to date on the latest repositories on github")
 
 # Technologies
 * HTML5
