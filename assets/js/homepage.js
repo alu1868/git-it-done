@@ -31,6 +31,7 @@ var getUserRepos = function(users) {
       // returns promise --> .then() is a function in case the promise returns resolved in which case it response with the user data
       response.json().then(function(data) {
         // display json data, data is the derivative of what was called, user was called from the form
+        console.log(data)
         displayRepos(data, users)
       });
     // if no response
@@ -98,6 +99,7 @@ var getFeaturedRepos = function(language) {
   fetch(apiUrl).then(function(response) {
     if (response.ok) {
       response.json().then(function(data) {
+        console.log(data)
         displayRepos(data.items, language);
       });
     } else {
